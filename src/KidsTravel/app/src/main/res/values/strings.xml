@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">KidsTravel</string>
+    <string name="lbl_userName">Usuario</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="btn_Login">Ingresar</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_refresh">Refrescar</string>
+    <string name="menu_newTravel">Nuevo Viaje</string>
+    <string name="menu_logout">Salir</string>
+    <string name="lbl_travelInfo">INFORMACION DEL VIAJE</string>
+    <string name="lbl_cityOrigin">Ciudad Origen</string>
+    <string name="lbl_cityDestiny">Ciudad Destino</string>
+    <string name="lbl_cityInt">Ciudad Int.</string>
+    <string name="lbl_startDate">Fecha Salida</string>
+    <string name="lbl_endDate">Fecha Llegada</string>
+    <string name="lbl_applicantName">Solicitante</string>
+    <string name="lbl_authorizerName">Autorizado por</string>
+    <string name="btn_Continue">Continuar</string>
+    <string name="lbl_selectMinors">Seleccione los menores</string>
+    <string name="btn_Save">Guardar</string>
+    <string name="lbl_route">Ruta:</string>
+    <string name="lbl_startDate_row">Fecha Salida:</string>
+    <string name="nav_requestedTravels">Viajes solicitados</string>
+    <string name="nav_authorizedTravels">Viajes autorizados</string>
+    <string name="nav_approvedTravels">Viajes aprobados</string>
+    <string name="nav_rejectedTravels">Viajes rechazados</string>
+    <string name="btn_Authorize">Autorizar</string>
+    <string name="btn_Reject">Rechazar</string>
+    <string name="btn_Approve">Aprobar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_userRegister">REGISTRO DE USUARIO</string>
+    <string name="lbl_userNameTitle">Nombre de usuario</string>
+    <string name="lbl_carnetId">Carnet de Identidad</string>
+    <string name="lbl_createUser">Crear usuario</string>
+
+    <!-- Mensaje de Error -->
+    <string name="error_username_alreadyExist">Nombre de usuario ocupado, ingrese otro</string>
+    <string name="error_userCI_alreadyExist">Ya existe un usuario con este CI</string>
+    <string name="error_CI_NotFound">CI no encontrado</string>
+    <string name="error_data_required">Dato requerido</string>
+    <string name="error_data_noValid">Dato no válido</string>
+    <string name="error_image_notFound">No existe imagen de usuario</string>
+    <string name="error_atLessOneMinor_required">Seleccione al menos un menor de edad</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="marginTop_row">30dp</dimen>
+    <dimen name="marginBottom_row">12dp</dimen>
+    <dimen name="textEdit_leftPadding">2dp</dimen>
+
+    <!-- Fonts -->
+    <dimen name="default_fontSize">24dip</dimen>
+    <dimen name="card_fontSize">16dip</dimen>
+
+    <!-- Button -->
+    <dimen name="button_topPadding">16dp</dimen>
+    <dimen name="button_bottomPadding">16dp</dimen>
+    <dimen name="button_leftPadding">24dp</dimen>
+    <dimen name="button_rightPadding">24dp</dimen>
+
+    <!-- List Row -->
+    <dimen name="listView_rowHeight_3Lines">76dp</dimen>
+    <dimen name="listView_rowHeight_2Lines">60dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="nav_drawer_headerHeight">192dp</dimen>
+    <dimen name="nav_drawer_headerPadding">16dp</dimen>
+    <dimen name="nav_drawer_profileImageSize">64dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="marginLeft_tv">10dp</dimen>
+    <dimen name="marginRight_tv">10dp</dimen>
+
+</resources>
