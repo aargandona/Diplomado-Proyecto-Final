@@ -2,5 +2,11 @@
 Archivos del Proyecto Final del Diplomado en Programación de Móviles
 
 Estructura:</br>
-<B>--> docs</B></br>
-    --> ProyectoFinal_Documento.docx - Perfil del Proyecto 
+<UL>
+	<LI>docs
+		<UL>
+			<LI>ProyectoFinal_Documento.docx - Perfil del Proyecto
+			<LI>
+		</UL>
+	<LI>
+</UL>
