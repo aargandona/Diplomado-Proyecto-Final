@@ -7,7 +7,6 @@ Estructura:</br>
 		<UL>
 			<LI>v1.0/app-debug.apk (NUEVO)
 		</UL>
-	<LI>
 	<LI>docs
 		<UL>
 			<LI>Informe_Avance_50_porciento.docx (NUEVO)
@@ -19,5 +18,4 @@ Estructura:</br>
 		<UL>
 			<LI>KidsTravel (NUEVO)
 		</UL>
-	<LI>
 </UL>
