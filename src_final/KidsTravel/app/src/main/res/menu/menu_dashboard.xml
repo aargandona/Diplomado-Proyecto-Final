@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bo.ara.com.kidstravel.DashboardActivity">
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="1"
+        android:title="@string/menu_search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/menu_travelList"
+        android:orderInCategory="2"
+        android:title="@string/menu_refresh"
+        android:icon="@drawable/ticket"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_newTravel"
+        android:orderInCategory="3"
+        android:title="@string/menu_newTravel"
+        android:icon="@drawable/ticket_add"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DashboardActivity" >
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navMenu_requested_travels"
+            android:icon="@drawable/ticket_requested"
+            android:title="@string/nav_requestedTravels"/>
+
+        <item android:id="@+id/navMenu_authorized_travels"
+            android:icon="@drawable/ticket_authorized"
+            android:title="@string/nav_authorizedTravels"/>
+
+        <item android:id="@+id/navMenu_approved_travels"
+            android:icon="@drawable/ticket_approved"
+            android:title="@string/nav_approvedTravels"/>
+
+        <item android:id="@+id/navMenu_rejected_travels"
+            android:icon="@drawable/ticket_rejected"
+            android:title="@string/nav_rejectedTravels"/>
+
+        <item android:id="@+id/navMenu_user_add"
+            android:icon="@drawable/user_add"
+            android:title="@string/lbl_createUser"/>
+
+        <item android:id="@+id/navMenu_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_logout"/>
+    </group>
+
+</menu>

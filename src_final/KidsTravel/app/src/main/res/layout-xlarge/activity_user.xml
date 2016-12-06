@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="bo.ara.com.kidstravel.UserActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginTop_row"
+        android:layout_marginBottom="0dp"
+        android:textSize="@dimen/default_fontSize"
+        android:text="@string/lbl_userRegister"/>
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/user_camera"
+        android:padding="1dp"
+        android:background="#424242"
+        android:id="@+id/user_image_camera"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_carnetId"
+        android:textSize="@dimen/default_fontSize"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/default_fontSize"
+        android:id="@+id/user_userCI"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_userNameTitle"
+        android:textSize="@dimen/default_fontSize"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginTop_row"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/default_fontSize"
+        android:id="@+id/user_username"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_password"
+        android:textSize="@dimen/default_fontSize"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginTop_row"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/default_fontSize"
+        android:id="@+id/user_password"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_btn_save"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/default_fontSize"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFontButton"
+            android:paddingTop="@dimen/button_topPadding"
+            android:paddingBottom="@dimen/button_bottomPadding"
+            android:paddingLeft="@dimen/button_leftPadding"
+            android:paddingRight="@dimen/button_rightPadding"
+            android:text="@string/btn_Save"/>
+
+    </LinearLayout>
+
+</LinearLayout>

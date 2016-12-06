@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="bo.ara.com.kidstravel.CardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/marginTop_row"
+        android:padding="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/card_fontSize"
+            android:text="CARNET DE VIAJE MENORES DE EDAD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/marginTop_row">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/card_fontSize"
+                android:textStyle="bold"
+                android:text="@string/lbl_route"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_route"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/card_fontSize"
+                android:text="La Paz - Cochabamba - Santa Cruz"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/marginTop_row">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/card_fontSize"
+                android:textStyle="bold"
+                android:text="@string/lbl_startDate_row"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_startDate"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/card_fontSize"
+                android:text="01/01/2016"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/marginTop_row">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/card_fontSize"
+                android:textStyle="bold"
+                android:text="Fecha Llegada:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_endDate"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/card_fontSize"
+                android:text="02/01/2016"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/marginTop_row">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/card_fontSize"
+                android:textStyle="bold"
+                android:text="Menores:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_minors"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/card_fontSize"
+                android:text="Julio Rocha I.\nMaria Rocha I."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/marginTop_row">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/card_fontSize"
+                android:textStyle="bold"
+                android:text="Padres:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_parents"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/card_fontSize"
+                android:text="Maria Illanes D.\nJulio Rocha"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="270dp"
+                android:id="@+id/card_QRCode"
+                android:layout_marginTop="@dimen/marginTop_row"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_continue"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/default_fontSize"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFontButton"
+            android:paddingTop="@dimen/button_topPadding"
+            android:paddingBottom="@dimen/button_bottomPadding"
+            android:paddingLeft="@dimen/button_leftPadding"
+            android:paddingRight="@dimen/button_rightPadding"
+            android:text="Imprimir"/>
+
+    </LinearLayout>
+</LinearLayout>

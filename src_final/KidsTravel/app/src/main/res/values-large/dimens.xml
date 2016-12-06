@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="marginTop_row">20dp</dimen>
+    <dimen name="marginBottom_row">12dp</dimen>
+    <dimen name="textEdit_leftPadding">2dp</dimen>
+
+    <!-- Fonts -->
+    <dimen name="default_fontSize">24dip</dimen>
+    <dimen name="card_fontSize">26dip</dimen>
+
+    <!-- Button -->
+    <dimen name="button_topPadding">18dp</dimen>
+    <dimen name="button_bottomPadding">18dp</dimen>
+    <dimen name="button_leftPadding">24dp</dimen>
+    <dimen name="button_rightPadding">24dp</dimen>
+
+    <!-- List Row -->
+    <dimen name="listView_rowHeight_3Lines">110dp</dimen>
+    <dimen name="listView_rowHeight_2Lines">85dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="nav_drawer_headerHeight">260dp</dimen>
+    <dimen name="nav_drawer_headerPadding">28dp</dimen>
+    <dimen name="nav_drawer_profileImageSize">96dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="marginLeft_tv">10dp</dimen>
+    <dimen name="marginRight_tv">10dp</dimen>
+
+    <!-- List View -->
+    <dimen name="listView_title_fontSize">26dip</dimen>
+    <dimen name="listView_subtitle_fontSize">24dip</dimen>
+
+    <!-- TabLayout -->
+    <dimen name="tabLayout_Height">64dp</dimen>
+
+    <!-- Navigation View -->
+    <dimen name="navigation_view_width">500dp</dimen>
+    <dimen name="design_navigation_icon_size">40dp</dimen>
+
+    <!-- ToolBar -->
+    <dimen name="toolBar_height">64dp</dimen>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "275995676348",
+    "firebase_url": "https://kidstravel-6833d.firebaseio.com",
+    "project_id": "kidstravel-6833d",
+    "storage_bucket": "kidstravel-6833d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275995676348:android:a31fff6b89f556b1",
+        "android_client_info": {
+          "package_name": "bo.ara.com.kidstravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275995676348-h1taomk4iqvci92u9rehp4puuavbfsd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRNmohAodDS2l0whZe_Y4PSQaOdYxmjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
